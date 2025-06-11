@@ -5,28 +5,24 @@ import type { ThemeConfig } from '~/types'
 
 export const defaultConfig: ThemeConfig = {
   site: {
-    title: '无界',
-    subtitle: 'Nulla',
+    title: 'Nulla',
+    subtitle: '无界',
     author: 'Francisco',
     description: 'Nulla — Minimal by design, intentional by thought.',
-    website: 'https://astro-theme-typography.vercel.app/',
+    website: 'https://fuqingsong.cn',
     pageSize: 5,
     socialLinks: [
       {
         name: 'github',
-        href: 'https://github.com/moeyua/astro-theme-typography',
+        href: 'https://github.com/FranciscoTappan',
+      },
+      {
+        name: 'figma',
+        href: 'https://www.figma.com/@francisui',
       },
       {
         name: 'rss',
         href: '/atom.xml',
-      },
-      {
-        name: 'twitter',
-        href: 'https://github.com/moeyua/astro-theme-typography',
-      },
-      {
-        name: 'mastodon',
-        href: 'https://github.com/moeyua/astro-theme-typography',
       },
     ],
     navLinks: [
@@ -50,7 +46,7 @@ export const defaultConfig: ThemeConfig = {
     categoryMap: [{ name: '胡适', path: 'hu-shi' }],
     footer: [
       '© %year <a target="_blank" href="%website">%author</a>',
-      '<a target="_blank" href="https://astro.build/">豫ICP备202201899</a>',
+      '<a target="_blank" href="https://beian.miit.gov.cn">豫ICP备2022018990号-2</a>',
     ],
   },
   appearance: {
@@ -71,7 +67,7 @@ export const defaultConfig: ThemeConfig = {
     },
   },
   seo: {
-    twitter: '@moeyua13',
+    twitter: '',
     meta: [],
     link: [],
   },

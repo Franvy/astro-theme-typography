@@ -22,7 +22,13 @@ const { translate: t } = Astro.locals
       socialLinks.map(({ href, name }) => (
         <li>
           <a href={href} target="_blank" title={name} class="not-underline-hover inline-flex items-center">
-            <span class:list={[`i-mdi-${name}`, 'w-6 h-6']}>{name}</span>
+            {name === 'figma' ? (
+              <span class="w-6 h-6 text-white dark:text-white">
+                <img src="/figma.svg" class="w-full h-full invert-[0%] dark:invert" alt="Figma" />
+              </span>
+            ) : (
+              <span class:list={[`i-mdi-${name}`, 'w-6 h-6']}>{name}</span>
+            )}
           </a>
         </li>
       ))

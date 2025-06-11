@@ -3,4 +3,6 @@ title: 关于
 pubDate: 2024-12-06
 ---
 
-此主题系 Hexo 主题 <a href="https://github.com/sumimakito/hexo-theme-typography">活版印字</a> 在 Astro 平台上的移植版本
+代码与设计的双修者，在技术与美感间自由穿梭。
+
+我是一名后端开发工程师，主要从事 Web 开发，熟悉 Java、Rust 和 Python。对前端、运维以及 UI 设计同样充满兴趣，喜欢使用 Next.js、Astro、Payload CMS、shadcn/ui 等技术栈，追求界面的极致美感，热爱用 Figma 打造简洁而有力的视觉体验。我正在朝着独立开发者与数字游民的方向努力，致力于构建既有技术深度又有设计质感的作品。
