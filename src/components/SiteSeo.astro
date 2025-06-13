@@ -22,11 +22,8 @@ const rss = new URL('/atom.xml', Astro.site).toString()
 const optimizedImage = await getOptimizedImageURL()
 
 const seoLinks = [
+  { rel: 'icon', href: '/icon.png' },
   { rel: 'icon', href: '/favicon.svg', type: 'image/svg+xml' },
-  // <link href="/favicon.svg" rel="icon" type="image/svg+xml">
-  // <link href="/favicon.ico" rel="icon" sizes="32x32">
-  // <link rel="apple-touch-icon" href="/custom_icon.png">
-  { rel: 'icon', href: '/favicon.ico' },
   { rel: 'apple-touch-icon', href: '/icon.png' },
   {
     rel: 'alternate',
