@@ -9,7 +9,7 @@ export const defaultConfig: ThemeConfig = {
     subtitle: '无界',
     author: 'Francisco',
     description: 'Nulla — Minimal by design, intentional by thought.',
-    website: 'https://fuqingsong.cn',
+    website: 'https://franvy.com',
     pageSize: 5,
     socialLinks: [
       {
