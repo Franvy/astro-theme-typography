@@ -14,11 +14,11 @@ export const defaultConfig: ThemeConfig = {
     socialLinks: [
       {
         name: 'github',
-        href: 'https://github.com/FranciscoTappan',
+        href: 'https://github.com/Franvy',
       },
       {
         name: 'figma',
-        href: 'https://www.figma.com/@francisui',
+        href: 'https://www.figma.com/@franvy',
       },
       {
         name: 'rss',
