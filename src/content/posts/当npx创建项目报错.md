@@ -3,7 +3,7 @@ title: 当npx创建项目报错
 author: Francisco
 description: 使用npx命令创建Nuxt项目时遇到DNS污染错误，解决方法是查询最新IP地址并在本地Host文件中配置。推荐使用Cloudflare等DNS服务商。
 pubDate: 2023-4-12
-categories: ["DNS", "IP配置", "Nuxt", "前端"]
+categories: ["Nuxt", "前端"]
 slug: npx-error-creating-nuxt-project
 pin: false
 ---

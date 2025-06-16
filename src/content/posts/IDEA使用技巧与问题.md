@@ -3,7 +3,7 @@ title: IDEA使用技巧与问题
 author: Francisco
 description: 解决MybatisX报错的方法包括自定义yml文件依赖和插件推荐，如CamelCase、CodeGlance Pro和JRebel等，提升代码效率和调试体验。
 pubDate: 2025-01-12
-categories: ["IDEA", "插件推荐"]
+categories: ["IDEA"]
 slug: when-npx-creates-project-error
 pin: false
 ---
@@ -12,7 +12,7 @@ pin: false
 
 # **技巧**
 
-## **解决MybatisX"statement"报错**
+## **解决MybatisX statement 报错**
 
 问题现状
 

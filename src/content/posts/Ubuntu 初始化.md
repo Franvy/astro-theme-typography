@@ -3,7 +3,7 @@ title: Ubuntu 初始化
 author: Francisco
 description: Ubuntu Server 22.04 LTS的Zsh安装步骤，包括Oh-My-Zsh和Powerlevel10k主题的配置，以及Panel的安装和推荐命令如Neofetch、Htop和Duf的使用方法。
 pubDate: 2023-2-12
-categories: ["Ubuntu", "服务器"]
+categories: ["Ubuntu"]
 slug: ubuntu-initialization
 pin: false
 ---
@@ -18,15 +18,43 @@ pin: false
 
 ## 1.安装 Zsh
 
-- 更新本地软件包列表 `sudo apt update`
-- 安装 Zsh `sudo apt install zsh`
-- 检查 Zsh 版本号 `zsh --version`
+- 更新本地软件包列表
+
+```bash
+sudo apt update
+```
+
+- 安装 Zsh
+
+```bash
+sudo apt install zsh
+```
+
+- 检查 Zsh 版本号
+
+```bash
+zsh --version
+```
 
 ## 2.安装 Oh-My-Zsh
 
-- 下载脚本 `wget <https://gitee.com/mirrors/oh-my-zsh/raw/master/tools/install.sh>`
-- 脚本添加可执行权限 `chmod +x install.sh`
-- 运行脚本 `./install.sh`
+- 下载脚本
+
+```bash
+wget <https://gitee.com/mirrors/oh-my-zsh/raw/master/tools/install.sh>
+```
+
+- 脚本添加可执行权限
+
+```bash
+chmod +x install.sh
+```
+
+- 运行脚本
+
+```bash
+./install.sh
+```
 
 ## 3.安装 Powerlevel10k 主题和插件
 
@@ -115,7 +143,9 @@ curl -sSL <https://resource.fit2cloud.com/1panel/package/quick_start.sh> -o quic
 
 **安装**
 
-- `sudo apt install neofetch`
+```bash
+sudo apt install neofetch
+```
 
 **演示**
 
@@ -129,7 +159,9 @@ curl -sSL <https://resource.fit2cloud.com/1panel/package/quick_start.sh> -o quic
 
 **安装**
 
-- `sudo apt install htop`
+```bash
+sudo apt install htop
+```
 
 **演示**
 
@@ -143,7 +175,9 @@ curl -sSL <https://resource.fit2cloud.com/1panel/package/quick_start.sh> -o quic
 
 **安装**
 
-- `sudo apt install duf`
+```bash
+sudo apt install duf
+```
 
 **演示**
 
@@ -157,7 +191,9 @@ curl -sSL <https://resource.fit2cloud.com/1panel/package/quick_start.sh> -o quic
 
 **安装**
 
-- `sudo apt install exa`
+```bash
+sudo apt install exa
+```
 
 **演示**
 
